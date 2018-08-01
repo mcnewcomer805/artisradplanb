@@ -1,0 +1,77 @@
+/*  Full App Style   */
+
+body{background-color:lemonchiffon;
+  color:teal;}
+
+  .header{text-align:center;
+    top:-100px;
+  }
+  .App-header {
+
+    ackground-image: url(https://mosaizer.com/Collaizer/samples/example_01.jpg);
+    background: url(/static/media/collageandguy.09c6347f.jpg);
+    height: 250px;
+    padding: 40px;
+    color: rgb(254, 254, 255);
+    background-position: bottom 100px right 0px;
+}
+
+  /*   Login Component Assignments  */
+
+.signIn{position:relative;
+        left:45%;
+        top:145px;
+        font-size:35px;
+        height:350px;
+        width:450px;
+        border-radius:65%;
+        box-shadow:3px 2px black;
+        background-color:gray;}
+
+
+
+.formClass{position:relative;
+           top:15px;
+           left:55px;}
+
+.loginButton{position:relative;
+             left:80px;}
+
+button:hover{background-color:teal;}
+
+img{height:300px;}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #3a0202;
+  border-color: #440606;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #630808;
+  border-color: #630808;
+  border-radius: 25px;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border-radius: 25px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #63080829;
+  text-align: center;
+  color: #f8f9fa;
+  width: 200px;
+  margin: auto;
+  font-size: 10px;
+}

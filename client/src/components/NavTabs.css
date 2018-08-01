@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  ackground-image: url("https://mosaizer.com/Collaizer/samples/example_01.jpg");
+  background: url("collageandguy.jpg");
+  height: 250px;
+  padding: 40px;
+  color: rgb(254, 254, 255);
+  background-position: bottom -280px right 0px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1{
+  
+  background-color:rgb(99, 8, 8);
+  color:#fff;
+  padding: 0px;
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  border-radius: 25px;
+
+}
+
+h3{
+
+  background-color:rgb(99, 8, 8);
+  color:#fff;
+  padding: 0px;
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+a{
+
+  background-color:rgb(99, 8, 8);
+  color:#fff;
+  padding: 5px;
+  margin: 2px;
+  width: 600px;
+  text-align: center;
+  border-radius: 25px;
+} 
+
+li{
+  color:rgb(10, 0, 0);
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(8, 8, 8);
+  color: teal;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef6d;
+  text-align: center;
+  color: rgb(99, 8, 8);
+}
+
+.nav-tabs .nav-link.active {
+  color: #fefeff;
+  background-color: rgba(13, 9, 74, 0.143);
+  border-color: #dee2e6 #dee2e6 #fff;
+  width: 150px;
+  height: 30px;
+}
+
+.nav-tabs .nav-link {
+  color: #fefeff;
+  background-color: rgba(178, 181, 211, 0.143);
+
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  width: 150px;
+  height: 30px;
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+  font: 15px sans-serif;
+}

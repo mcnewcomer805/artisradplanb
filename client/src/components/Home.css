@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  ackground-image: url("https://mosaizer.com/Collaizer/samples/example_01.jpg");
+  background: url("collageandguy.jpg");
+  height: 250px;
+  padding: 40px;
+  color: rgb(254, 254, 255);
+  background-position: bottom -280px right 0px;
+  top:-100px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h1{
+  
+  background-color:rgb(99, 8, 8);
+  color:#fff;
+  padding: 0px;
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  border-radius: 25px;
+
+}
+
+h3{
+
+  background-color:rgb(99, 8, 8);
+  color:#fff;
+  padding: 0px;
+  margin: auto;
+  width: 600px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+a{
+
+  background-color:rgb(99, 8, 8);
+  color:#fff;
+  padding: 5px;
+  margin: 2px;
+  width: 600px;
+  text-align: center;
+  border-radius: 25px;
+} 
+
+li{
+  color:rgb(10, 0, 0);
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(8, 8, 8);
+  color: teal;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef6d;
+  text-align: center;
+  color: rgb(99, 8, 8);
+}
